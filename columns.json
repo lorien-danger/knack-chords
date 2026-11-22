@@ -1,0 +1,81 @@
+{
+ "name": "Chords",
+ "item": "chord",
+ "items": "chords",
+ "title": "name",
+ "practices": [
+  {
+   "name": "Name and keys",
+   "columns": [
+    "name",
+    "keys"
+   ]
+  },
+  {
+   "name": "Symbol and keys",
+   "columns": [
+    "symbol",
+    "keys"
+   ]
+  },
+  {
+   "name": "Hear it, name it",
+   "columns": [
+    "sound",
+    "name"
+   ]
+  },
+  {
+   "name": "What kind of chord?",
+   "columns": [
+    "keys",
+    "kind"
+   ]
+  }
+ ],
+ "columns": [
+  {
+   "name": "name",
+   "type": "plain",
+   "label": "Name"
+  },
+  {
+   "name": "symbol",
+   "type": "plain",
+   "label": "Symbol"
+  },
+  {
+   "name": "keys",
+   "type": "notes",
+   "octave": false,
+   "label": "Keys"
+  },
+  {
+   "name": "sound",
+   "type": "plain",
+   "media": "audio",
+   "label": "Sound"
+  },
+  {
+   "name": "root",
+   "type": "notes",
+   "octave": false,
+   "label": "Root"
+  },
+  {
+   "name": "kind",
+   "type": "tree",
+   "label": "Kind"
+  },
+  {
+   "name": "formula",
+   "type": "parts",
+   "label": "Notes above the root"
+  },
+  {
+   "name": "family",
+   "type": "parts",
+   "label": "In the keys of"
+  }
+ ]
+}
